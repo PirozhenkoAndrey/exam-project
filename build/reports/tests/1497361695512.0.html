@@ -1,0 +1,646 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<title>Create Account | My Store</title>
+<meta charset="UTF-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+<link rel="shortcut icon" href="/favicon.ico" />
+
+
+<script>var config = {"platform":{"url":"http:\/\/litecart-2.0.1\/en\/"},"template":{"url":"http:\/\/litecart-2.0.1\/includes\/templates\/default.catalog\/","settings":{"product_modal_window":"1","sidebar_parallax_effect":"1","cookie_acceptance":"1"}}};</script>
+<meta name="robots" content="noindex" />
+<link rel="stylesheet" href="/ext/fontawesome/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/ext/featherlight/featherlight.min.css" />
+<link rel="stylesheet" href="/includes/templates/default.catalog/css/framework.min.css" />
+<link rel="stylesheet" href="/includes/templates/default.catalog/css/app.min.css" />
+</head>
+<body>
+
+<div id="page" class="twelve-eighty shadow">
+
+  <header id="header">
+
+    <a class="logotype" href="http://litecart-2.0.1/en/">
+      <img src="/images/logotype.png" style="max-width: 250px; max-height: 60px;" alt="My Store" title="My Store" />
+    </a>
+
+    <div id="region-wrapper">
+      <div id="region">
+  <div class="language">English</div>
+  <div class="currency" title="US Dollars"><span>USD</span></div>
+  <div class="country"><img src="/images/countries/ru.png" style="vertical-align: baseline;" alt="Russian Federation" title="Russian Federation" /></div>
+  <div class="change"><a class="lightbox" href="http://litecart-2.0.1/en/regional_settings">Change</a></div>
+</div>
+    </div>
+
+    <div id="cart">
+  <a href="http://litecart-2.0.1/en/checkout" class="image">
+    <img src="/includes/templates/default.catalog/images/cart.svg" alt="" />
+    <div class="content">
+      <div class="title">Shopping Cart</div>
+      <div><span class="quantity">0</span> item(s) - <span class="formatted_value">$0</span></div>
+    </div>
+  </a>
+</div>  </header>
+
+  <nav id="site-menu" class="twelve-eighty">
+  <ul>
+  <li class="general-0"><a href="http://litecart-2.0.1/en/"><i class="fa fa-home" title="Home"></i></a>  </li>
+  <li class="category-1"><a href="http://litecart-2.0.1/en/rubber-ducks-c-1/">Rubber Ducks</a><ul>
+  <li class="category-2"><a href="http://litecart-2.0.1/en/rubber-ducks-c-1/subcategory-c-2/">Subcategory</a>  </li>
+</ul>
+
+  </li>
+</ul>
+</nav>
+  <div id="main">
+    <div class="top">
+          </div>
+
+    <div class="middle">
+
+      <aside id="sidebar">
+  <div id="column-left" style="margin-top: 200px;">
+    <div id="box-information-links" class="box">
+
+  <h2 class="title">Customer Service</h2>
+
+  <ul class="nav nav-pills nav-primary nav-stacked">
+        <li class="active"><a href="http://litecart-2.0.1/en/customer-service-s-0">Contact Us</a></li>
+        <li><a href="http://litecart-2.0.1/en/about-us-s-1">About Us</a></li>
+        <li><a href="http://litecart-2.0.1/en/delivery-information-s-2">Delivery Information</a></li>
+        <li><a href="http://litecart-2.0.1/en/privacy-policy-s-3">Privacy Policy</a></li>
+        <li><a href="http://litecart-2.0.1/en/terms-conditions-s-4">Terms &amp; Conditions</a></li>
+      </ul>
+
+</div>    <div id="box-account-login" class="box">
+  <h2>Sign In</h2>
+
+  <form name="login_form" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" action="http://litecart-2.0.1/en/login">
+<input type="hidden" name="token" value="660c5bb8877f2d6ba5166ea2a1e5529598eb6dbc" />
+    <input type="hidden" name="redirect_url" value="http://litecart-2.0.1/en/" />
+    <div class="form-group required">
+      <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-at fa-fw"></i></span>
+  <input class="form-control" type="email" name="email" value="some1@mail.com" data-type="email" required="required" placeholder="Email Address" /></div>    </div>
+
+    <div class="form-group">
+      <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+  <input class="form-control" type="password" name="password" value="" data-type="password" placeholder="Password" /></div>    </div>
+
+    <div class="btn-group btn-block">
+      <button class="btn btn-default" type="submit" name="login" value="Sign In">Sign In</button>    </div>
+
+    <p class="text-center"><a href="http://litecart-2.0.1/en/create_account">New customers click here</a></p>
+
+  </form>
+</div>  </div>
+</aside>
+
+<main id="content">
+  <div id="notices">
+<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert">×</a><i class="fa fa-exclamation-triangle"></i> The email address already exists in our customer database. Please login or select a different email address.</div>
+</div>
+
+  <ul class="breadcrumb">
+<li><a href="/">Home</a></li><li>Create Account</li></ul>
+
+
+  <div id="box-create-account" class="box">
+
+    <h1>Create Account</h1>
+
+    <form name="customer_form" method="post" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8" style="max-width: 640px;">
+<input type="hidden" name="token" value="660c5bb8877f2d6ba5166ea2a1e5529598eb6dbc" />
+
+      <div class="row">
+        <div class="form-group col-sm-halfs">
+          <label>Tax ID</label>
+          <input class="form-control" type="text" name="tax_id" value="1234567890" data-type="text" />        </div>
+
+        <div class="col-sm-halfs">
+          <label>Company</label>
+          <input class="form-control" type="text" name="company" value="Main Academy" data-type="text" />        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-sm-halfs required">
+          <label>Firstname</label>
+          <input class="form-control" type="text" name="firstname" value="Ganadiy" data-type="text" required="required" />        </div>
+
+        <div class="form-group col-sm-halfs required">
+          <label>Lastname</label>
+          <input class="form-control" type="text" name="lastname" value="Miroshnichenko" data-type="text" required="required" />        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-sm-halfs required">
+          <label>Address 1</label>
+          <input class="form-control" type="text" name="address1" value="UA" data-type="text" required="required" />        </div>
+
+        <div class="form-group col-sm-halfs">
+          <label>Address 2</label>
+          <input class="form-control" type="text" name="address2" value="UA" data-type="text" />        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-sm-halfs">
+          <label>Postcode</label>
+          <input class="form-control" type="text" name="postcode" value="04080" data-type="text" pattern="[0-9]{5}" />        </div>
+
+        <div class="form-group col-sm-halfs">
+          <label>City</label>
+          <input class="form-control" type="text" name="city" value="Kiev" data-type="text" />        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-sm-halfs">
+          <label>Country</label>
+          <select class="form-control" name="country_code">
+  <option value="">-- Select --</option>
+  <option value="AF" data-tax-id-format="" data-postcode-format="" data-phone-code="93">Afghanistan</option>
+  <option value="AX" data-tax-id-format="" data-postcode-format="" data-phone-code="358">Åland Islands</option>
+  <option value="AL" data-tax-id-format="" data-postcode-format="" data-phone-code="355">Albania</option>
+  <option value="DZ" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="213">Algeria</option>
+  <option value="AS" data-tax-id-format="" data-postcode-format="96799" data-phone-code="168">American Samoa</option>
+  <option value="AD" data-tax-id-format="" data-postcode-format="AD[0-9]{3}" data-phone-code="376">Andorra</option>
+  <option value="AO" data-tax-id-format="" data-postcode-format="" data-phone-code="244">Angola</option>
+  <option value="AI" data-tax-id-format="" data-postcode-format="" data-phone-code="126">Anguilla</option>
+  <option value="AQ" data-tax-id-format="" data-postcode-format="" data-phone-code="672">Antarctica</option>
+  <option value="AG" data-tax-id-format="" data-postcode-format="" data-phone-code="126">Antigua and Barbuda</option>
+  <option value="AR" data-tax-id-format="" data-postcode-format="([A-HJ-NP-Z])?[0-9]{4}([A-Z]{3})?" data-phone-code="54">Argentina</option>
+  <option value="AM" data-tax-id-format="" data-postcode-format="(37)?[0-9]{4}" data-phone-code="374">Armenia</option>
+  <option value="AW" data-tax-id-format="" data-postcode-format="" data-phone-code="297">Aruba</option>
+  <option value="AU" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="61">Australia</option>
+  <option value="AT" data-tax-id-format="^(AT)?U[0-9]{8}$" data-postcode-format="[0-9]{4}" data-phone-code="43">Austria</option>
+  <option value="AZ" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="994">Azerbaijan</option>
+  <option value="BS" data-tax-id-format="" data-postcode-format="" data-phone-code="124">Bahamas</option>
+  <option value="BH" data-tax-id-format="" data-postcode-format="((1[0-2]|[2-9])[0-9]{2})?" data-phone-code="973">Bahrain</option>
+  <option value="BD" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="880">Bangladesh</option>
+  <option value="BB" data-tax-id-format="" data-postcode-format="(BB[0-9]{5})?" data-phone-code="124">Barbados</option>
+  <option value="BY" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="375">Belarus</option>
+  <option value="BE" data-tax-id-format="^(BE)?0[0-9]{9}$" data-postcode-format="[0-9]{4}" data-phone-code="32">Belgium</option>
+  <option value="BZ" data-tax-id-format="" data-postcode-format="" data-phone-code="501">Belize</option>
+  <option value="BJ" data-tax-id-format="" data-postcode-format="" data-phone-code="229">Benin</option>
+  <option value="BM" data-tax-id-format="" data-postcode-format="[A-Z]{2}[ ]?[A-Z0-9]{2}" data-phone-code="144">Bermuda</option>
+  <option value="BT" data-tax-id-format="" data-postcode-format="" data-phone-code="975">Bhutan</option>
+  <option value="BO" data-tax-id-format="" data-postcode-format="" data-phone-code="591">Bolivia</option>
+  <option value="BA" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="387">Bosnia and Herzegowina</option>
+  <option value="BW" data-tax-id-format="" data-postcode-format="" data-phone-code="267">Botswana</option>
+  <option value="BV" data-tax-id-format="" data-postcode-format="" data-phone-code="47">Bouvet Island</option>
+  <option value="BR" data-tax-id-format="" data-postcode-format="[0-9]{5}[\-]?[0-9]{3}" data-phone-code="55">Brazil</option>
+  <option value="IO" data-tax-id-format="" data-postcode-format="BBND 1ZZ" data-phone-code="246">British Indian Ocean Territory</option>
+  <option value="BN" data-tax-id-format="" data-postcode-format="[A-Z]{2}[ ]?[0-9]{4}" data-phone-code="673">Brunei Darussalam</option>
+  <option value="BG" data-tax-id-format="^(BG)?[0-9]{9,10}$" data-postcode-format="[0-9]{4}" data-phone-code="359">Bulgaria</option>
+  <option value="BF" data-tax-id-format="" data-postcode-format="" data-phone-code="226">Burkina Faso</option>
+  <option value="BI" data-tax-id-format="" data-postcode-format="" data-phone-code="257">Burundi</option>
+  <option value="KH" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="855">Cambodia</option>
+  <option value="CM" data-tax-id-format="" data-postcode-format="" data-phone-code="237">Cameroon</option>
+  <option value="CA" data-tax-id-format="" data-postcode-format="[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJ-NPRSTV-Z][ ]?[0-9][ABCEGHJ-NPRSTV-Z][0-9]" data-phone-code="1">Canada</option>
+  <option value="CV" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="238">Cape Verde</option>
+  <option value="KY" data-tax-id-format="" data-postcode-format="" data-phone-code="134">Cayman Islands</option>
+  <option value="CF" data-tax-id-format="" data-postcode-format="" data-phone-code="236">Central African Republic</option>
+  <option value="TD" data-tax-id-format="" data-postcode-format="" data-phone-code="235">Chad</option>
+  <option value="CL" data-tax-id-format="" data-postcode-format="" data-phone-code="56">Chile</option>
+  <option value="CN" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="86">China</option>
+  <option value="CX" data-tax-id-format="" data-postcode-format="6798" data-phone-code="61">Christmas Island</option>
+  <option value="CC" data-tax-id-format="" data-postcode-format="6799" data-phone-code="61">Cocos (Keeling) Islands</option>
+  <option value="CO" data-tax-id-format="" data-postcode-format="" data-phone-code="57">Colombia</option>
+  <option value="KM" data-tax-id-format="" data-postcode-format="" data-phone-code="269">Comoros</option>
+  <option value="CG" data-tax-id-format="" data-postcode-format="" data-phone-code="242">Congo</option>
+  <option value="CK" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="682">Cook Islands</option>
+  <option value="CR" data-tax-id-format="" data-postcode-format="[0-9]{4,5}|[0-9]{3}-[0-9]{4}" data-phone-code="506">Costa Rica</option>
+  <option value="CI" data-tax-id-format="" data-postcode-format="" data-phone-code="225">Cote D'Ivoire</option>
+  <option value="HR" data-tax-id-format="^(HR)?[0-9]{11}$" data-postcode-format="[0-9]{5}" data-phone-code="385">Croatia</option>
+  <option value="CU" data-tax-id-format="" data-postcode-format="" data-phone-code="53">Cuba</option>
+  <option value="CY" data-tax-id-format="^(CY)?[0-9]{8}L$" data-postcode-format="[0-9]{4}" data-phone-code="357">Cyprus</option>
+  <option value="CZ" data-tax-id-format="^(CZ)?[0-9]{8,10}$" data-postcode-format="[0-9]{3}[ ]?[0-9]{2}" data-phone-code="420">Czech Republic</option>
+  <option value="CD" data-tax-id-format="" data-postcode-format="" data-phone-code="243">Democratic Republic of Congo</option>
+  <option value="DK" data-tax-id-format="^(DK)?[0-9]{8}$" data-postcode-format="[0-9]{4}" data-phone-code="45">Denmark</option>
+  <option value="DJ" data-tax-id-format="" data-postcode-format="" data-phone-code="253">Djibouti</option>
+  <option value="DM" data-tax-id-format="" data-postcode-format="" data-phone-code="176">Dominica</option>
+  <option value="DO" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="180">Dominican Republic</option>
+  <option value="TP" data-tax-id-format="" data-postcode-format="" data-phone-code="670">East Timor</option>
+  <option value="EC" data-tax-id-format="" data-postcode-format="([A-Z][0-9]{4}[A-Z]|(?:[A-Z]{2})?[0-9]{6})?" data-phone-code="593">Ecuador</option>
+  <option value="EG" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="20">Egypt</option>
+  <option value="SV" data-tax-id-format="" data-postcode-format="" data-phone-code="503">El Salvador</option>
+  <option value="GQ" data-tax-id-format="" data-postcode-format="" data-phone-code="240">Equatorial Guinea</option>
+  <option value="ER" data-tax-id-format="" data-postcode-format="" data-phone-code="291">Eritrea</option>
+  <option value="EE" data-tax-id-format="^(EE)?[0-9]{9}$" data-postcode-format="[0-9]{5}" data-phone-code="372">Estonia</option>
+  <option value="ET" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="251">Ethiopia</option>
+  <option value="FK" data-tax-id-format="" data-postcode-format="FIQQ 1ZZ" data-phone-code="500">Falkland Islands (Malvinas)</option>
+  <option value="FO" data-tax-id-format="" data-postcode-format="[0-9]{3}" data-phone-code="298">Faroe Islands</option>
+  <option value="FJ" data-tax-id-format="" data-postcode-format="" data-phone-code="679">Fiji</option>
+  <option value="FI" data-tax-id-format="^(FI)?[0-9]{8}$" data-postcode-format="[0-9]{5}" data-phone-code="358">Finland</option>
+  <option value="FR" data-tax-id-format="^(FR)?[0-9A-Z]{2}[0-9]{9}$" data-postcode-format="[0-9]{2}[ ]?[0-9]{3}" data-phone-code="33">France</option>
+  <option value="GF" data-tax-id-format="" data-postcode-format="9[78]3[0-9]{2}" data-phone-code="594">French Guiana</option>
+  <option value="PF" data-tax-id-format="" data-postcode-format="987[0-9]{2}" data-phone-code="689">French Polynesia</option>
+  <option value="TF" data-tax-id-format="" data-postcode-format="" data-phone-code="262">French Southern Territories</option>
+  <option value="GA" data-tax-id-format="" data-postcode-format="" data-phone-code="241">Gabon</option>
+  <option value="GM" data-tax-id-format="" data-postcode-format="" data-phone-code="220">Gambia</option>
+  <option value="GE" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="995">Georgia</option>
+  <option value="DE" data-tax-id-format="^(DE)?[0-9]{9}$" data-postcode-format="[0-9]{5}" data-phone-code="49">Germany</option>
+  <option value="GH" data-tax-id-format="" data-postcode-format="" data-phone-code="233">Ghana</option>
+  <option value="GI" data-tax-id-format="" data-postcode-format="" data-phone-code="350">Gibraltar</option>
+  <option value="GR" data-tax-id-format="^(EL|GR)?[0-9]{9}$" data-postcode-format="[0-9]{3}[ ]?[0-9]{2}" data-phone-code="30">Greece</option>
+  <option value="GL" data-tax-id-format="" data-postcode-format="39[0-9]{2}" data-phone-code="299">Greenland</option>
+  <option value="GD" data-tax-id-format="" data-postcode-format="" data-phone-code="147">Grenada</option>
+  <option value="GP" data-tax-id-format="" data-postcode-format="9[78][01][0-9]{2}" data-phone-code="590">Guadeloupe</option>
+  <option value="GU" data-tax-id-format="" data-postcode-format="969[123][0-9]([ \-][0-9]{4})?" data-phone-code="167">Guam</option>
+  <option value="GT" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="502">Guatemala</option>
+  <option value="GG" data-tax-id-format="" data-postcode-format="" data-phone-code="44">Guernsey</option>
+  <option value="GN" data-tax-id-format="" data-postcode-format="[0-9]{3}" data-phone-code="224">Guinea</option>
+  <option value="GW" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="245">Guinea-bissau</option>
+  <option value="GY" data-tax-id-format="" data-postcode-format="" data-phone-code="592">Guyana</option>
+  <option value="HT" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="509">Haiti</option>
+  <option value="HM" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="0">Heard and McDonald Islands</option>
+  <option value="HN" data-tax-id-format="" data-postcode-format="(?:[0-9]{5})?" data-phone-code="504">Honduras</option>
+  <option value="HK" data-tax-id-format="" data-postcode-format="" data-phone-code="852">Hong Kong</option>
+  <option value="HU" data-tax-id-format="^(HU)?[0-9]{8}$" data-postcode-format="[0-9]{4}" data-phone-code="36">Hungary</option>
+  <option value="IS" data-tax-id-format="" data-postcode-format="[0-9]{3}" data-phone-code="354">Iceland</option>
+  <option value="IN" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="91">India</option>
+  <option value="ID" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="62">Indonesia</option>
+  <option value="IR" data-tax-id-format="" data-postcode-format="" data-phone-code="98">Iran, Islamic Republic of</option>
+  <option value="IQ" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="964">Iraq</option>
+  <option value="IE" data-tax-id-format="^(IE)?[0-9]S[0-9]{5}L$" data-postcode-format="" data-phone-code="353">Ireland</option>
+  <option value="IM" data-tax-id-format="" data-postcode-format="" data-phone-code="44">Isle of Man</option>
+  <option value="IL" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="972">Israel</option>
+  <option value="IT" data-tax-id-format="^(IT)?[0-9]{11}$" data-postcode-format="[0-9]{5}" data-phone-code="39">Italy</option>
+  <option value="JM" data-tax-id-format="" data-postcode-format="" data-phone-code="187">Jamaica</option>
+  <option value="JP" data-tax-id-format="" data-postcode-format="[0-9]{3}-[0-9]{4}" data-phone-code="81">Japan</option>
+  <option value="JE" data-tax-id-format="" data-postcode-format="" data-phone-code="44">Jersey</option>
+  <option value="JO" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="962">Jordan</option>
+  <option value="KZ" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="7">Kazakhstan</option>
+  <option value="KE" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="254">Kenya</option>
+  <option value="KI" data-tax-id-format="" data-postcode-format="" data-phone-code="686">Kiribati</option>
+  <option value="KR" data-tax-id-format="" data-postcode-format="[0-9]{3}[\-][0-9]{3}" data-phone-code="82">Korea, Republic of</option>
+  <option value="KW" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="965">Kuwait</option>
+  <option value="KG" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="996">Kyrgyzstan</option>
+  <option value="LA" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="856">Lao People's Democratic Republic</option>
+  <option value="LV" data-tax-id-format="^(LV)?[0-9]{11}$" data-postcode-format="[0-9]{4}" data-phone-code="371">Latvia</option>
+  <option value="LB" data-tax-id-format="" data-postcode-format="([0-9]{4}([ ]?[0-9]{4})?)?" data-phone-code="961">Lebanon</option>
+  <option value="LS" data-tax-id-format="" data-postcode-format="[0-9]{3}" data-phone-code="266">Lesotho</option>
+  <option value="LR" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="231">Liberia</option>
+  <option value="LY" data-tax-id-format="" data-postcode-format="" data-phone-code="218">Libyan Arab Jamahiriya</option>
+  <option value="LI" data-tax-id-format="" data-postcode-format="(948[5-9])|(949[0-7])" data-phone-code="423">Liechtenstein</option>
+  <option value="LT" data-tax-id-format="^(LT)?([0-9]{9}|[0-9]{12})$" data-postcode-format="[0-9]{5}" data-phone-code="370">Lithuania</option>
+  <option value="LU" data-tax-id-format="^(LU)?[0-9]{8}$" data-postcode-format="[0-9]{4}" data-phone-code="352">Luxembourg</option>
+  <option value="MO" data-tax-id-format="" data-postcode-format="" data-phone-code="853">Macau</option>
+  <option value="MK" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="389">Macedonia</option>
+  <option value="MG" data-tax-id-format="" data-postcode-format="[0-9]{3}" data-phone-code="261">Madagascar</option>
+  <option value="MW" data-tax-id-format="" data-postcode-format="" data-phone-code="265">Malawi</option>
+  <option value="MY" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="60">Malaysia</option>
+  <option value="MV" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="960">Maldives</option>
+  <option value="ML" data-tax-id-format="" data-postcode-format="" data-phone-code="223">Mali</option>
+  <option value="MT" data-tax-id-format="^(MT)?[0-9]{8}$" data-postcode-format="" data-phone-code="356">Malta</option>
+  <option value="MH" data-tax-id-format="" data-postcode-format="969[67][0-9]([ \-][0-9]{4})?" data-phone-code="692">Marshall Islands</option>
+  <option value="MQ" data-tax-id-format="" data-postcode-format="9[78]2[0-9]{2}" data-phone-code="596">Martinique</option>
+  <option value="MR" data-tax-id-format="" data-postcode-format="" data-phone-code="222">Mauritania</option>
+  <option value="MU" data-tax-id-format="" data-postcode-format="([0-9]{3}[A-Z]{2}[0-9]{3})?" data-phone-code="230">Mauritius</option>
+  <option value="YT" data-tax-id-format="" data-postcode-format="976[0-9]{2}" data-phone-code="262">Mayotte</option>
+  <option value="MX" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="52">Mexico</option>
+  <option value="FM" data-tax-id-format="" data-postcode-format="(9694[1-4])([ \-][0-9]{4})?" data-phone-code="691">Micronesia, Federated States of</option>
+  <option value="MD" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="373">Moldova, Republic of</option>
+  <option value="MC" data-tax-id-format="" data-postcode-format="980[0-9]{2}" data-phone-code="377">Monaco</option>
+  <option value="MN" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="976">Mongolia</option>
+  <option value="ME" data-tax-id-format="" data-postcode-format="" data-phone-code="382">Montenegro</option>
+  <option value="MS" data-tax-id-format="" data-postcode-format="" data-phone-code="166">Montserrat</option>
+  <option value="MA" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="212">Morocco</option>
+  <option value="MZ" data-tax-id-format="" data-postcode-format="" data-phone-code="258">Mozambique</option>
+  <option value="MM" data-tax-id-format="" data-postcode-format="" data-phone-code="95">Myanmar</option>
+  <option value="NA" data-tax-id-format="" data-postcode-format="" data-phone-code="264">Namibia</option>
+  <option value="NR" data-tax-id-format="" data-postcode-format="" data-phone-code="674">Nauru</option>
+  <option value="NP" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="977">Nepal</option>
+  <option value="NL" data-tax-id-format="^(NL)?[0-9]{9}B[0-9]{2}$" data-postcode-format="[0-9]{4} ?[a-zA-Z]{2}" data-phone-code="31">Netherlands</option>
+  <option value="AN" data-tax-id-format="" data-postcode-format="" data-phone-code="599">Netherlands Antilles</option>
+  <option value="NC" data-tax-id-format="" data-postcode-format="988[0-9]{2}" data-phone-code="687">New Caledonia</option>
+  <option value="NZ" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="64">New Zealand</option>
+  <option value="NI" data-tax-id-format="" data-postcode-format="(([0-9]{4}-)?[0-9]{3}-[0-9]{3}(-[0-9]{1})?)?" data-phone-code="505">Nicaragua</option>
+  <option value="NE" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="227">Niger</option>
+  <option value="NG" data-tax-id-format="" data-postcode-format="([0-9]{6})?" data-phone-code="234">Nigeria</option>
+  <option value="NU" data-tax-id-format="" data-postcode-format="" data-phone-code="683">Niue</option>
+  <option value="NF" data-tax-id-format="" data-postcode-format="2899" data-phone-code="672">Norfolk Island</option>
+  <option value="KP" data-tax-id-format="" data-postcode-format="" data-phone-code="850">North Korea</option>
+  <option value="MP" data-tax-id-format="" data-postcode-format="9695[012]([ \-][0-9]{4})?" data-phone-code="167">Northern Mariana Islands</option>
+  <option value="NO" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="47">Norway</option>
+  <option value="OM" data-tax-id-format="" data-postcode-format="(PC )?[0-9]{3}" data-phone-code="968">Oman</option>
+  <option value="PK" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="92">Pakistan</option>
+  <option value="PW" data-tax-id-format="" data-postcode-format="96940" data-phone-code="680">Palau</option>
+  <option value="PA" data-tax-id-format="" data-postcode-format="" data-phone-code="507">Panama</option>
+  <option value="PG" data-tax-id-format="" data-postcode-format="[0-9]{3}" data-phone-code="675">Papua New Guinea</option>
+  <option value="PY" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="595">Paraguay</option>
+  <option value="PE" data-tax-id-format="" data-postcode-format="" data-phone-code="51">Peru</option>
+  <option value="PH" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="63">Philippines</option>
+  <option value="PN" data-tax-id-format="" data-postcode-format="PCRN 1ZZ" data-phone-code="870">Pitcairn</option>
+  <option value="PL" data-tax-id-format="^(PL)?[0-9]{10}$" data-postcode-format="[0-9]{2}-[0-9]{3}" data-phone-code="48">Poland</option>
+  <option value="PT" data-tax-id-format="^(PT)?[0-9]{9}$" data-postcode-format="[0-9]{4}([\-][0-9]{3})?" data-phone-code="351">Portugal</option>
+  <option value="PR" data-tax-id-format="" data-postcode-format="00[679][0-9]{2}([ \-][0-9]{4})?" data-phone-code="1">Puerto Rico</option>
+  <option value="QA" data-tax-id-format="" data-postcode-format="" data-phone-code="974">Qatar</option>
+  <option value="RE" data-tax-id-format="" data-postcode-format="9[78]4[0-9]{2}" data-phone-code="262">Reunion</option>
+  <option value="RO" data-tax-id-format="^(RO)?[0-9]{2,10}$" data-postcode-format="[0-9]{6}" data-phone-code="40">Romania</option>
+  <option value="RU" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="7">Russian Federation</option>
+  <option value="RW" data-tax-id-format="" data-postcode-format="" data-phone-code="250">Rwanda</option>
+  <option value="KN" data-tax-id-format="" data-postcode-format="" data-phone-code="186">Saint Kitts and Nevis</option>
+  <option value="LC" data-tax-id-format="" data-postcode-format="" data-phone-code="175">Saint Lucia</option>
+  <option value="VC" data-tax-id-format="" data-postcode-format="" data-phone-code="178">Saint Vincent and the Grenadines</option>
+  <option value="WS" data-tax-id-format="" data-postcode-format="" data-phone-code="685">Samoa</option>
+  <option value="SM" data-tax-id-format="" data-postcode-format="4789[0-9]" data-phone-code="378">San Marino</option>
+  <option value="ST" data-tax-id-format="" data-postcode-format="" data-phone-code="239">Sao Tome and Principe</option>
+  <option value="SA" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="966">Saudi Arabia</option>
+  <option value="SN" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="221">Senegal</option>
+  <option value="RS" data-tax-id-format="" data-postcode-format="" data-phone-code="381">Serbia</option>
+  <option value="SC" data-tax-id-format="" data-postcode-format="" data-phone-code="248">Seychelles</option>
+  <option value="SL" data-tax-id-format="" data-postcode-format="" data-phone-code="232">Sierra Leone</option>
+  <option value="SG" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="65">Singapore</option>
+  <option value="SK" data-tax-id-format="^(SK)?[0-9]{10}$" data-postcode-format="[0-9]{3}[ ]?[0-9]{2}" data-phone-code="421">Slovak Republic</option>
+  <option value="SI" data-tax-id-format="^(SI)?[0-9]{8}$" data-postcode-format="[0-9]{4}" data-phone-code="386">Slovenia</option>
+  <option value="SB" data-tax-id-format="" data-postcode-format="" data-phone-code="677">Solomon Islands</option>
+  <option value="SO" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="252">Somalia</option>
+  <option value="ZA" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="27">South Africa</option>
+  <option value="GS" data-tax-id-format="" data-postcode-format="SIQQ 1ZZ" data-phone-code="500">South Georgia and South Sandwich Islands</option>
+  <option value="ES" data-tax-id-format="^(ES)?[0-9A-Z][0-9]{7}[0-9A-Z]$" data-postcode-format="[0-9]{5}" data-phone-code="34">Spain</option>
+  <option value="LK" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="94">Sri Lanka</option>
+  <option value="SH" data-tax-id-format="" data-postcode-format="(ASCN|STHL) 1ZZ" data-phone-code="290">St. Helena</option>
+  <option value="PM" data-tax-id-format="" data-postcode-format="9[78]5[0-9]{2}" data-phone-code="508">St. Pierre and Miquelon</option>
+  <option value="SD" data-tax-id-format="" data-postcode-format="" data-phone-code="249">Sudan</option>
+  <option value="SR" data-tax-id-format="" data-postcode-format="" data-phone-code="597">Suriname</option>
+  <option value="SJ" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="47">Svalbard and Jan Mayen Islands</option>
+  <option value="SZ" data-tax-id-format="" data-postcode-format="[HLMS][0-9]{3}" data-phone-code="268">Swaziland</option>
+  <option value="SE" data-tax-id-format="^(SE)?(16|19|20)?[0-9]{6}-?[0-9]{4}?(01)?$" data-postcode-format="[0-9]{3}[ ]?[0-9]{2}" data-phone-code="46">Sweden</option>
+  <option value="CH" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="41">Switzerland</option>
+  <option value="SY" data-tax-id-format="" data-postcode-format="" data-phone-code="963">Syrian Arab Republic</option>
+  <option value="TW" data-tax-id-format="" data-postcode-format="[0-9]{3}([0-9]{2})?" data-phone-code="886">Taiwan</option>
+  <option value="TJ" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="992">Tajikistan</option>
+  <option value="TZ" data-tax-id-format="" data-postcode-format="" data-phone-code="255">Tanzania, United Republic of</option>
+  <option value="TH" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="66">Thailand</option>
+  <option value="TG" data-tax-id-format="" data-postcode-format="" data-phone-code="228">Togo</option>
+  <option value="TK" data-tax-id-format="" data-postcode-format="" data-phone-code="690">Tokelau</option>
+  <option value="TO" data-tax-id-format="" data-postcode-format="" data-phone-code="676">Tonga</option>
+  <option value="TT" data-tax-id-format="" data-postcode-format="" data-phone-code="186">Trinidad and Tobago</option>
+  <option value="TN" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="216">Tunisia</option>
+  <option value="TR" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="90">Turkey</option>
+  <option value="TM" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="993">Turkmenistan</option>
+  <option value="TC" data-tax-id-format="" data-postcode-format="TKCA 1ZZ" data-phone-code="164">Turks and Caicos Islands</option>
+  <option value="TV" data-tax-id-format="" data-postcode-format="" data-phone-code="688">Tuvalu</option>
+  <option value="UG" data-tax-id-format="" data-postcode-format="" data-phone-code="256">Uganda</option>
+  <option value="UA" selected="selected" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="380">Ukraine</option>
+  <option value="AE" data-tax-id-format="" data-postcode-format="" data-phone-code="971">United Arab Emirates</option>
+  <option value="GB" data-tax-id-format="^(GB)?([0-9]{9}([0-9]{3})?|[A-Z]{2}[0-9]{3})$" data-postcode-format="GIR[ ]?0AA|((AB|AL|B|BA|BB|BD|BH|BL|BN|BR|BS|BT|CA|CB|CF|CH|CM|CO|CR|CT|CV|CW|DA|DD|DE|DG|DH|DL|DN|DT|DY|E|EC|EH|EN|EX|FK|FY|G|GL|GY|GU|HA|HD|HG|HP|HR|HS|HU|HX|IG|IM|IP|IV|JE|KA|KT|KW|KY|L|LA|LD|LE|LL|LN|LS|LU|M|ME|MK|ML|N|NE|NG|NN|NP|NR|NW|OL|OX|PA|PE|PH|PL|PO|PR|RG|RH|RM|S|SA|SE|SG|SK|SL|SM|SN|SO|SP|SR|SS|ST|SW|SY|TA|TD|TF|TN|TQ|TR|TS|TW|UB|W|WA|WC|WD|WF|WN|WR|WS|WV|YO|ZE)([0-9][[0-9]A-Z]?[ ]?[0-9][ABD-HJLN-UW-Z]{2}))|BFPO[ ]?[0-9]{1,4}" data-phone-code="44">United Kingdom</option>
+  <option value="US" data-tax-id-format="" data-postcode-format="[0-9]{5}([ \-][0-9]{4})?" data-phone-code="1">United States</option>
+  <option value="UM" data-tax-id-format="" data-postcode-format="" data-phone-code="1">United States Minor Outlying Islands</option>
+  <option value="UY" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="598">Uruguay</option>
+  <option value="UZ" data-tax-id-format="" data-postcode-format="[0-9]{6}" data-phone-code="998">Uzbekistan</option>
+  <option value="VU" data-tax-id-format="" data-postcode-format="" data-phone-code="678">Vanuatu</option>
+  <option value="VA" data-tax-id-format="" data-postcode-format="00120" data-phone-code="39">Vatican City State (Holy See)</option>
+  <option value="VE" data-tax-id-format="" data-postcode-format="[0-9]{4}" data-phone-code="58">Venezuela</option>
+  <option value="VN" data-tax-id-format="" data-postcode-format="" data-phone-code="84">Viet Nam</option>
+  <option value="VG" data-tax-id-format="" data-postcode-format="" data-phone-code="128">Virgin Islands (British)</option>
+  <option value="VI" data-tax-id-format="" data-postcode-format="008(([0-4][0-9])|(5[01]))([ \-][0-9]{4})?" data-phone-code="134">Virgin Islands (U.S.)</option>
+  <option value="WF" data-tax-id-format="" data-postcode-format="986[0-9]{2}" data-phone-code="681">Wallis and Futuna Islands</option>
+  <option value="EH" data-tax-id-format="" data-postcode-format="" data-phone-code="212">Western Sahara</option>
+  <option value="YE" data-tax-id-format="" data-postcode-format="" data-phone-code="967">Yemen</option>
+  <option value="ZM" data-tax-id-format="" data-postcode-format="[0-9]{5}" data-phone-code="260">Zambia</option>
+  <option value="ZW" data-tax-id-format="" data-postcode-format="" data-phone-code="263">Zimbabwe</option>
+</select>        </div>
+
+        <div class="form-group col-sm-halfs">
+          <label>Zone/State/Province</label>
+          <select class="form-control" name="zone_code" disabled="disabled">
+</select>        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-md-halfs required">
+          <label>Email</label>
+          <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-at fa-fw"></i></span>
+  <input class="form-control" type="email" name="email" value="some1@mail.com" data-type="email" required="required" /></div>        </div>
+
+        <div class="form-group col-sm-halfs">
+          <label>Phone</label>
+          <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
+  <input class="form-control" type="tel" name="phone" value="+380000000000" data-type="phone" pattern="^\+?([0-9]|-| )+$" placeholder="+380" /></div>        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-md-halfs required">
+          <label>Desired Password</label>
+          <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+  <input class="form-control" type="password" name="password" value="" data-type="password" required="required" /></div>        </div>
+
+        <div class="form-group col-md-halfs required">
+          <label>Confirm Password</label>
+          <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+  <input class="form-control" type="password" name="confirmed_password" value="" data-type="password" required="required" /></div>        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-md-halfs">
+          <label>Newsletter</label>
+          <div class="checkbox">
+            <label><input type="checkbox" name="newsletter" value="1" /> Subscribe</label>
+          </div>
+        </div>
+
+              </div>
+
+      <div class="btn-group">
+        <button class="btn btn-default" type="submit" name="create_account" value="Create Account">Create Account</button>      </div>
+
+    </form>
+  </div>
+</main>
+
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="bottom">
+          </div>
+  </div>
+
+  <footer id="footer">
+
+  <div id="cookies-acceptance" class="text-center">
+  We rely on cookies to provide our services. By using our services, you agree to our use of cookies. <button class="btn btn-default" type="button" name="accept_cookies" value="OK">OK</button></div>
+
+  <div class="row">
+    <div class="hidden-xs col-sm-fourths col-md-fifths categories">
+      <h3 class="title">Categories</h3>
+      <ul class="list-unstyled">
+        <li><a href="http://litecart-2.0.1/en/rubber-ducks-c-1/">Rubber Ducks</a></li>
+      </ul>
+    </div>
+
+        <div class="hidden-xs hidden-sm col-md-fifths manufacturers">
+      <h3 class="title">Manufacturers</h3>
+      <ul class="list-unstyled">
+      <li><a href="http://litecart-2.0.1/en/acme-corp-m-1/">ACME Corp.</a></li>
+      </ul>
+    </div>
+    
+    <div class="col-xs-halfs col-sm-fourths col-md-fifths account">
+      <h3 class="title">Account</h3>
+      <ul class="list-unstyled">
+        <li><a href="http://litecart-2.0.1/en/customer-service-s-0">Customer Service</a></li>
+        <li><a href="http://litecart-2.0.1/en/regional_settings">Regional Settings</a></li>
+                <li><a href="http://litecart-2.0.1/en/create_account">Create Account</a></li>
+        <li><a href="http://litecart-2.0.1/en/login">Login</a></li>
+              </ul>
+    </div>
+
+    <div class="col-xs-halfs col-sm-fourths col-md-fifths information">
+      <h3 class="title">Information</h3>
+      <ul class="list-unstyled">
+        <li><a href="http://litecart-2.0.1/en/about-us-i-1">About Us</a></li>
+<li><a href="http://litecart-2.0.1/en/delivery-information-i-2">Delivery Information</a></li>
+<li><a href="http://litecart-2.0.1/en/privacy-policy-i-3">Privacy Policy</a></li>
+<li><a href="http://litecart-2.0.1/en/terms-conditions-i-4">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+
+    <div class="hidden-xs col-sm-fourths col-md-fifths contact">
+      <h3 class="title">Contact</h3>
+
+      <p>My Store<br />
+Street<br />
+Postcode City<br />
+Country</p>
+
+            <p><a href="tel:+1-212-555-DUCK"><i class="fa fa-phone"></i> +1-212-555-DUCK</a></p><p>
+      
+      </p><p><a href="mailto:store@email.com"><i class="fa fa-envelope"></i> store@email.com</a></p>
+    </div>
+  </div>
+</footer>
+
+<div id="copyright" class="twelve-eighty">
+  <!-- LiteCart is provided free under license CC BY-ND 4.0 - https://creativecommons.org/licenses/by-nd/4.0/. Removing the link back to litecart.net without written permission is a violation. -->
+  <div class="notice">Copyright © 2017 My Store. All rights reserved · Powered by <a href="http://www.litecart.net" target="_blank" title="Free e-commerce platform">LiteCart®</a></div>
+</div></div>
+
+<a id="scroll-up" href="#" style="display: inline;">
+  <i class="fa fa-chevron-circle-up fa-3x" style="color: #000;"></i></a>
+
+<script src="/ext/jquery/jquery-3.2.1.min.js"></script>
+<script src="/ext/featherlight/featherlight.min.js"></script>
+<script src="/includes/templates/default.catalog/js/app.min.js"></script>
+<script>
+&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/
+$(document).ready(function(){
+  setTimeout(function(){$('#notices').fadeOut();}, 20000);
+
+  $('#box-create-account').on('input propertyChange', ':input', function() {
+    if ($(this).val() == '') return;
+    $('body').css('cursor', 'wait');
+    $.ajax({
+      url: 'http://litecart-2.0.1/en/ajax/get_address.json?trigger='+$(this).attr('name'),
+      type: 'post',
+      data: $(this).closest('form').serialize(),
+      cache: false,
+      async: true,
+      dataType: 'json',
+      error: function(jqXHR, textStatus, errorThrown) {
+        if (console) console.warn(errorThrown.message);
+      },
+      success: function(data) {
+        if (data['alert']) {
+          alert(data['alert']);
+          return;
+        }
+        $.each(data, function(key, value) {
+          console.log(key +' '+ value);
+          if ($('input[name="'+key+'"]').length &amp;&amp; $('input[name="'+key+'"]').val() == '') $('input[name="'+key+'"]').val(data[key]);
+        });
+      },
+      complete: function() {
+        $('body').css('cursor', 'auto');
+      }
+    });
+  });
+
+  $('select[name="country_code"]').change(function(e) {
+
+    if ($(this).find('option:selected').data('tax-id-format')) {
+      $('input[name="tax_id"]').attr('pattern', $(this).find('option:selected').data('tax-id-format'));
+    } else {
+      $('input[name="tax_id"]').removeAttr('pattern');
+    }
+
+    if ($(this).find('option:selected').data('postcode-format')) {
+      $('input[name="postcode"]').attr('pattern', $(this).find('option:selected').data('postcode-format'));
+    } else {
+      $('input[name="postcode"]').removeAttr('pattern');
+    }
+
+    if ($(this).find('option:selected').data('phone-code')) {
+      $('input[name="phone"]').attr('placeholder', '+' + $(this).find('option:selected').data('phone-code'));
+    } else {
+      $('input[name="phone"]').removeAttr('placeholder');
+    }
+
+    $('body').css('cursor', 'wait');
+    $.ajax({
+      url: 'http://litecart-2.0.1/en/ajax/zones.json?country_code=' + $(this).val(),
+      type: 'get',
+      cache: true,
+      async: true,
+      dataType: 'json',
+      error: function(jqXHR, textStatus, errorThrown) {
+        if (console) console.warn(errorThrown.message);
+      },
+      success: function(data) {
+        $("select[name='zone_code']").html('');
+        if (data.length) {
+          $('select[name="zone_code"]').prop('disabled', false);
+          $.each(data, function(i, zone) {
+            $('select[name="zone_code"]').append('&lt;option value="'+ zone.code +'"&gt;'+ zone.name +'&lt;/option&gt;');
+          });
+        } else {
+          $('select[name="zone_code"]').prop('disabled', true);
+        }
+      },
+      complete: function() {
+        $('body').css('cursor', 'auto');
+      }
+    });
+  });
+
+  if ($('select[name="country_code"] option:selected').data('tax-id-format')) {
+    $('input[name="tax_id"]').attr('pattern', $('select[name="country_code"] option:selected').data('tax-id-format'));
+  } else {
+    $('input[name="tax_id"]').removeAttr('pattern');
+  }
+
+  if ($('select[name="country_code"] option:selected').data('postcode-format')) {
+    $('input[name="postcode"]').attr('pattern', $('select[name="country_code"] option:selected').data('postcode-format'));
+  } else {
+    $('input[name="postcode"]').removeAttr('pattern');
+  }
+
+  if ($('select[name="country_code"] option:selected').data('phone-code')) {
+    $('input[name="phone"]').attr('placeholder', '+' + $('select[name="country_code"] option:selected').data('phone-code'));
+  } else {
+    $('input[name="phone"]').removeAttr('placeholder');
+  }
+
+  $('button[name="accept_cookies"]').click(function(){
+    $('#cookies-acceptance').fadeOut();
+    $.cookie('cookies_accepted', '1', {path: '/', expires: 365});
+  });
+
+  $('a.lightbox').featherlight({
+      closeIcon: '&amp;#x2716;',
+      loading: '&lt;div class=\"loader\" style=\"width: 128px; height: 128px; opacity: 0.5;\"&gt;&lt;/div&gt;',
+      targetAttr: 'data-target'
+  });
+});
+/*]]&gt;*/--&gt;
+</script>
+
+</body></html>
